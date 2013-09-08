@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.  Line
+# up the first '|' above the ':' following the base package name, and the '|' on
+# the right side marks the last column you can put a character in.  You must make
+# exactly 11 lines for the formatting to be correct.  It's also customary to
+# leave one space after the ':'.
+ 
+    |-----handy-ruler------------------------------------------------------|
+serd: Serd 0.18.2
+serd: 
+serd: Serd is a lightweight C library for RDF syntax which supports reading
+serd: and writing Turtle and NTriples.
+serd: Serd is not intended to be a swiss-army knife of RDF syntax, but 
+serd: rather is suited to resource limited or performance critical
+serd: applications (e.g. converting many gigabytes of NTriples to Turtle),
+serd: or situations where a simple reader/writer with minimal dependencies
+serd: is ideal (e.g. in LV2 implementations or embedded applications).
+serd: 
+serd: http://drobilla.net/software/serd/
