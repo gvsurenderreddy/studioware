@@ -24,7 +24,7 @@
 PRGNAM=photoprint
 VERSION=${VERSION:-0.4.2_pre2}
 SRCVERSION=${VERSION/_/-}
-BUILD=${BUILD:-2}
+BUILD=${BUILD:-3}
 TAG=${TAG:-se}
 
 if [ -z "$ARCH" ]; then
@@ -104,6 +104,6 @@ cat $CWD/doinst.sh > $PKG/install/doinst.sh
 cd $PKG
 
 find . -name \*.desktop -exec \
-    sed -i 's/Categories=.*$/Categories=X-Studioware-Photo;/' '{}' \;
+    sed -i 's/Categories=.*$/Categories=X-Studioware-Photo;/;s/%F//g' '{}' \;
 
 /sbin/makepkg -l y -c n $OUTPUT/$PRGNAM-$VERSION-$ARCH-$BUILD$TAG.${PKGTYPE:-tgz}

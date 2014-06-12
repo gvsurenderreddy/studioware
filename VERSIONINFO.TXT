@@ -9,7 +9,7 @@ rawstudio 2.0 4
 digikam 3.5.0 4
 darktable 1.4.2 1
 enblend-enfuse 4.1.3 2
-photoprint 0.4.2_pre2 2
+photoprint 0.4.2_pre2 3
 iccprofiles 2011 2
 hugin 2013.0.0 1
 openjpeg 1.5.1 1
